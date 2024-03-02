@@ -1,4 +1,4 @@
-package com.elvirafatkhutdinova.fruityvice.data.model
+package com.elvirafatkhutdinova.fruityvice.data.network.model
 
 import com.google.gson.annotations.SerializedName
 

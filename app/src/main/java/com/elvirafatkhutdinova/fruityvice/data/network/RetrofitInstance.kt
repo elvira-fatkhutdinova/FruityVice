@@ -1,4 +1,4 @@
-package com.elvirafatkhutdinova.fruityvice.data
+package com.elvirafatkhutdinova.fruityvice.data.network
 
 import com.elvirafatkhutdinova.fruityvice.utils.Constants.Companion.BASE_URL
 import retrofit2.Retrofit
