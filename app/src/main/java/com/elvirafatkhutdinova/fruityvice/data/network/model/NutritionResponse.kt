@@ -2,7 +2,7 @@ package com.elvirafatkhutdinova.fruityvice.data.network.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Nutrition(
+data class NutritionResponse(
     @SerializedName("calories")
     val calories: Int,
     @SerializedName("carbohydrates")

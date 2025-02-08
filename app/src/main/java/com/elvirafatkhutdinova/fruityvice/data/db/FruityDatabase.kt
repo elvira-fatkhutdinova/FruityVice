@@ -24,7 +24,7 @@ abstract class FruityDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     FruityDatabase::class.java,
-                    "fruity_database.db"
+                    "fruity_database"
                 ).build()
                 INSTANCE = instance
                 instance

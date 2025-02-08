@@ -2,7 +2,7 @@ package com.elvirafatkhutdinova.fruityvice.data.network.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Fruit(
+data class FruitResponse(
     @SerializedName("family")
     val family: String,
     @SerializedName("genus")
@@ -12,7 +12,7 @@ data class Fruit(
     @SerializedName("name")
     val name: String,
     @SerializedName("nutritions")
-    val nutrition: Nutrition,
+    val nutritionResponse: NutritionResponse,
     @SerializedName("order")
     val order: String
 )
